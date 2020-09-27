@@ -1,5 +1,5 @@
 {
-  "name": "PokemonApp",
+  "name": "testing-hooks-demo",
   "version": "1.0.0",
   "description": "Application created to test the module mock feature of Jest",
   "main": "index.js",
@@ -12,7 +12,8 @@
     "start": "webpack-dev-server --progress --config config/webpack.dev.js",
     "build:dev": "webpack --progress --config config/webpack.dev.js",
     "build:prod": "webpack --progress --config config/webpack.prod.js",
-    "watch": "jest --watch --verbose"
+    "watch": "jest --watch --verbose",
+    "test": "jest --verbose"
   },
   "dependencies": {
     "@babel/core": "^7.6.0",
@@ -27,6 +28,8 @@
     "clean-webpack-plugin": "^1.0.1",
     "copy-webpack-plugin": "^5.0.3",
     "css-loader": "^2.1.1",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.5",
     "file-loader": "^4.0.0",
     "html-loader": "^0.5.5",
     "html-webpack-plugin": "^3.2.0",
